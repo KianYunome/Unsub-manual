@@ -1,0 +1,28 @@
+---
+description: >-
+  Learn how Unsub predicts your library's post-cancellation Interlibrary Loan
+  activity and costs(Unsubが図書館の各種ジャーナルのキャンセル後のILLの利用状況やコストを予測する方法についてご紹介します。)
+---
+
+# How do we calculate ILL requests and ILL cost?(ILLリスエストとILLコストをどの様に計算するか?)
+
+Interlibrary Loan (ILL) is a key consideration in forecasting the effects of cancellation on fulfillment and cost. So naturally it's also an important part of Unsub's five-year forecasting approach, and is prominently displayed on your Scenario Overview page. To understand how we handle ILL, let's look at two parts of the equation: the expected number of **ILL requests** and the expected **ILL cost**.(ILL（図書館相互貸借）は、ジャーナルのキャンセルによるFulfillment(利用実現可能性)とコストへの影響を予測する上で、重要な考慮事項です。そのため、当然Unsubの5年予測アプローチの重要な部分でもあり、Scinario Overviewのページで目立つように表示されています。ILLをどのように扱うか理解するために、方程式の2つの部分を見てみましょう：**ILLリクエストの予想**と**ILLコストの予想**です。)
+
+## Forecasting ILL requests(ILLリクエストの予測) <a href="#forecasting-ill-requests" id="forecasting-ill-requests"></a>
+
+We'll start by looking at how we forecast ILL requests for a single journal--let's call it _Journal X_. The approach has a few steps:(まず、ある1つのジャーナル（ここでは「Journal X」と呼びます）のILLリクエストをどのように予測するかを見てみましょう。このアプローチにはいくつかの段階があります。)
+
+1. We start with the number of views _Journal X_ received last year, using data from [your uploaded COUNTER report](../how-to-guides/upload-counter-usage-data.md).(まず、[アップロードしたCOUNTERレポート] (../how-to-guides/upload-counter-usage-data.md) のデータを使って、_Journal X_ の昨年の利用数を確認します。)
+2. We predict the usage of _Journal X_ on your campus for each of the next five years. To do this we use an algorithm to forecast the growing (or shrinking) of interest in this journal, based on recent publication and readership trends.(今後5年間の、ご自身のキャンパスでの_Journal X_の利用状況を予測します。そのために、最近の出版状況と読者の傾向に基づいて、このジャーナルへの関心の高まり（または縮小）を予測するアルゴリズムを使用します。)
+3. For each of the next five years, we now generate a breakdown of how much of _Journal X's_ viewership can be fulfilled instantly, via your PTA (Post-Termination Access) rights and via open access. Whatever's left over after that is a turnaway (unless of course you have chosen to subscribe title-by-title to _Journal X_).(今後5年間のそれぞれについて、_Journal X_の利用者が、自機関のPTA（Post-Termination Access）権やオープンアクセスによって、どれだけ即座に充足できるかの内訳を作成します。その後に残ったものはすべて、（もちろん、機関として_Journal X_をタイトルごとに購読することを選択していない限り、）Turnaway（契約外コンテンツへのアクセスデータ）としてカウントされます。)
+4. We _could_ naively assume that every turnaway creates an ILL request. But we know that readers often procure paywalled articles by other means, or simply find replacements. In fact, [the literature suggests](https://arxiv.org/abs/2009.04287) that (conservatively) around 5% of turnaways generate ILL requests. This 5% figure is your ILL Request Rate. So, to determine your ILL usage, Unsub simply your turnaways times your ILL Request Rate; this estimates the number of ILL requests expected for _Journal X_ each year. Be default, the ILL Request Rate is 5%; you can change this figure in the scenario menu under "Parameters ➞ ILL ➞ ILL Request Rate"(単純に、すべてのTurnaway(契約外コンテンツへのアクセスデータ）がILLリクエストを生み出すと考えることができます。しかし、読者はしばしば他の手段で有料論文を入手したり、単に代わりのものを見つけたりすることがわかっています。実際、[文献](https://arxiv.org/abs/2009.04287)によれば、(控えめに見ても)貸し出しの約5%がILLリクエストを生み出すとされています。この5%という数字が、あなたのILLリクエスト率です。つまり、ILL の使用量を決定するために、Unsub は単純に回転数×ILL リクエスト率で、_Journal X_ に毎年予想される ILL リクエストの数を推定します。デフォルトでは、ILLリクエスト率は5%です。この数値は、Scinario Menuの "Parameter ➞ ILL ➞ ILL Request Rate (ILLリクエスト率) "で変更することができます。)
+
+That's it! Using these steps for _Journal X_ we can predict the number of ILL request in each of the next five years. By giving all of the journals in your scenario this same treatment, we can estimate ILL requests across the whole package. Generally we'll display the results as a five-year average (rather than year-by-year) in order to simplify the report.(以上となります。Journal Xはこれらのステップを使用して、今後5年間のILLリクエストの数を予測することができます。シナリオのすべてのジャーナルに同じ処理を行うことで、パッケージ全体にわたってILLリクエストを推定することができます。一般的に、レポートを簡素化するために、結果を（年ごとではなく）5年間の平均として表示することにします。)
+
+## Forecasting ILL cost(ILLコストの予測) <a href="#forecasting-ill-cost" id="forecasting-ill-cost"></a>
+
+It's pretty easy to estimate the cost of ILL, once we have the number of ILL requests. We just need an estimate of the cost per request, and use that as a multiplier. Of course, this estimate needs to be the _overall_ cost per request, averaging in both variable costs (eg. transaction fees) and continuing fixed costs like staff salaries.(ILLリクエストの数がわかれば、ILLにかかるコストを見積もるのはとても簡単です。リクエストあたりのコストを推定し、それを乗数として使用すればよいのです。もちろん、この見積もりは、変動費（例：取り扱い手数料）とスタッフ給与のような継続的な固定費の両方を平均化した、リクエストあたりの全体的なコストでなければならなりません。)
+
+Helpfully, there is a large body of literature estimating the the overall cost-per-request of ILL, [which is summarized here](https://arxiv.org/abs/2009.04281). From that, we find that $17 per request is the most-cited figure, and so that's the value Unsub uses by default. Of course, if you know your own library's cost per request is different from this, you can change that $17 figure via the scenario menu ("Parameters ➞ ILL ➞ ILL transaction cost.")(役に立つことに、ILLのリクエストあたりの全体的なコストを推定する文献が多数存在する [ここに要約されています](https://arxiv.org/abs/2009.04281)。この文献から、リクエストあたり17ドルという数字が最も多く引用されており、Unsubはこの値をデフォルトで使用しています。もちろん、自機関の図書館のILLリクエスト単価がこれと異なる場合は、Scinario Menu（"Parameter ➞ ILL ➞ ILL Transaction cost"）から17ドルの数値を変更することができます。)
+
+Now that we have an average cost per ILL request, we just multiply that number by the number ILL requests forecasted for each of the next five years; that gives us forecasted ILL costs for each of the next five years. Again, we'll generally report the _average_ annual cost over the next five years for simplicity's sake.(ILLリクエストあたりの平均コストがわかったので、その数字に今後5年間のILLリクエスト予測数を掛ければ、今後5年間のILLコスト予測が得られます。ここでも、簡略化のために、一般に今後5年間の年間平均コストを報告します。)

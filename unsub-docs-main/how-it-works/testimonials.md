@@ -1,0 +1,23 @@
+# Testimonials(お客様の声)
+
+Unsub is already used by hundreds of libraries and several large consortia, even though it was only launched in November 2019.(Unsubは、2019年11月に発売されたばかりにもかかわらず、すでに数百の図書館や複数の大規模コンソーシアムで利用されています。)
+
+One of our earliest users, The State University of New York, has publicly stated that Unsub (previously called Unpaywall Journals) helped them cancel their Big Deal with Elsevier in early 2020, saving millions of dollars: [press release](https://library.buffalo.edu/news/2020/04/07/suny-negotiates-new-modified-agreement-with-elsevier/), [Science](https://www.sciencemag.org/news/2020/07/tool-saving-universities-millions-dollars-journal-subscriptions) article.(初期のユーザーの1つであるニューヨーク州立大学は、Unsub（以前はUnpaywall Journalsと呼ばれていました）のおかげで、2020年初頭にElsevierとのBig Dealをキャンセルし、数百万ドルを節約できたと公言しています。[press release](https://library.buffalo.edu/news/2020/04/07/suny-negotiates-new-modified-agreement-with-elsevier/)、[Science](https://www.sciencemag.org/news/2020/07/tool-saving-universities-millions-dollars-journal-subscriptions)の記事。)
+
+CRKN, the consortium of universities in Canada, has [publicly announced](https://www.crkn-rcdr.ca/en/crkn-subscribes-unsub) their subscription.(カナダの大学コンソーシアムであるCRKNが、Unsubの導入を[publicly announced(公告)](https://www.crkn-rcdr.ca/en/crkn-subscribes-unsub)しています。)
+
+A number of other users have discussed their use of Unsub in various articles ([Science](https://www.sciencemag.org/news/2020/07/tool-saving-universities-millions-dollars-journal-subscriptions)) and panels (SPARC, [NISO](https://www.niso.org/events/2020/07/no-more-big-deal-picking-and-choosing-titles-use)), including Wesleyan and Iowa State.(他の多くのユーザーは、Wesleyan大学やIowa State Universityを含む様々な記事([Science](https://www.sciencemag.org/news/2020/07/tool-saving-universities-millions-dollars-journal-subscriptions))やパネル(SPARC, [NISO](https://www.niso.org/events/2020/07/no-more-big-deal-picking-and-choosing-titles-use)) でUnsubの使用について議論しています。)
+
+MIT recently walked away from their Elsevier subscriptions. Shortly afterwards, Director of Libraries Chris Bourg [tweeted](https://twitter.com/mchris4duke/status/1306951884675133445):(MITは最近、Elsevierの購読を停止しました。その直後、図書館長Chris Bourgが[Tweeted](https://twitter.com/mchris4duke/status/1306951884675133445)しています。)
+
+> The work that @jasonpriem & @researchremix of @unsub\_org do is incredibly important -- was super helpful in understanding our alternatives and making sure we had a sound strategy in place if/when we ended up out of contract with any publisher(@unsub\_orgの@jasonpriemと@researchremixが行っている作業は非常に重要で、我々の選択肢を理解し、どの出版社とも契約できなくなった場合に備えて、適切な戦略を立てる上で非常に役に立ちました。)
+
+University of Oklahoma has been an enthusiastic user of Unsub even [after walking away from their Big Deals](https://guides.ou.edu/serialsprojects). Karen Rupp-Serrano, Interim Dean | University of Oklahoma Libraries, says:(オクラホマ大学は、[after walking away from their Big Deals(ビックディールを停止後)](https://guides.ou.edu/serialsprojects)もUnsubの熱心なユーザーです。暫定学部長｜オクラホマ大学図書館のKaren Rupp-Serrano氏は言う。)
+
+> We have found Unsub to be a great tool in our serials review toolbox. It offers the essential data we use in review projects, and in one place for ease of use. It offers important data we were unable to effectively marshall in the past, specifically citation and authorship data, open access data, ‘instant fulfillment’ and forecasting, all for an incredibly reasonable price. The staff are quick to respond to questions or concerns, and actively seek customer feedback to continuously improve their product.(> Unsubは、私たちのSerial Reviewのツールボックスの中で素晴らしいツールであることを発見しました。Unsubは、私たちがレビュープロジェクトで使用する必須データを提供し、使いやすいように一箇所にまとめています。特に引用や著者情報、オープンアクセスデータ、'Instant fulfillment:即時利用実現可能性'、予測など、過去に効果的に集めることができなかった重要なデータを、信じられないほどリーズナブルな価格で提供してくれています。スタッフは質問や懸念に迅速に対応し、製品を継続的に改善するために顧客からのフィードバックを積極的に求めています。)
+
+We also have a publicly-viewable user group where some users discuss their experiences: [https://groups.google.com/forum/#!forum/unsub-discuss](https://groups.google.com/forum/#!forum/unsub-discuss)(また、一般公開されているユーザーグループもあり、一部のユーザーがさまざまな体験談を語っています。[https://groups.google.com/forum/#!forum/unsub-discuss](https://groups.google.com/forum/#!forum/unsub-discuss))
+
+There is a press page that includes articles about Unsub: [https://unsub.org/press](https://unsub.org/press)(Unsubに関する記事が掲載されているプレスページがあります。[https://unsub.org/press](https://unsub.org/press))
+
+And a [few other articles and conference presentations](http://help.unsub.org/en/articles/4429079-articles-and-webinars-about-unsub) that mention Unsub.(そして、Unsubに言及している[few other articles and conference presentations:他のいくつかの論文や学会発表](http://help.unsub.org/en/articles/4429079-articles-and-webinars-about-unsub)もあります。)
